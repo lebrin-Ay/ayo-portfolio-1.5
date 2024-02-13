@@ -2,6 +2,7 @@ import React from 'react';
 import adminDashboardImg from "@/public/admin-dashboard.png";
 import citroneDashboardImg from "@/public/dashboard.png";
 import chineseImg from "@/public/chinese.png";
+import HooBank from "@/public/hoo_bank.png";
 
 // nav links
 export const links = [
@@ -36,7 +37,7 @@ export const projectsData = [
     {
         title: "Admin Dashboard",
         description:
-        "I created a financial dashboard that offers insights into tracking transaction data, user activities and many more.",
+        "A financial dashboard that offers insights into tracking transaction data, user activities and many more.",
         tags: ["React JS", "Tailwind CSS"],
         imageUrl: adminDashboardImg,
     },
@@ -46,6 +47,13 @@ export const projectsData = [
         "A learning management dashboard that allows users to take courses, quiz and submit assignments.",
         tags: ["React JS", "Tailwind CSS"],
         imageUrl: citroneDashboardImg,
+    },
+    {
+        title: "Hoo Bank",
+        description:
+        "A responsive consisting of a stunning hero section, reusable feature sections with call-to-action buttons, testimonials and more!",
+        tags: ["React JS", "Tailwind CSS"],
+        imageUrl: HooBank,
     },
     {
         title: "David Chu's",
