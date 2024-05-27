@@ -1,8 +1,8 @@
-import React from 'react';
 import adminDashboardImg from "@/public/admin-dashboard.png";
 import citroneDashboardImg from "@/public/dashboard.png";
 import chineseImg from "@/public/chinese.png";
 import HooBank from "@/public/hoo_bank.png";
+// import Winnov8 from "@/public/Winnov8.png";
 
 // nav links
 export const links = [
@@ -34,6 +34,12 @@ export const links = [
 
 // projects data
 export const projectsData = [
+    // {
+    //     title: "Winnov8",
+    //     description: "",
+    //     tags: ["React JS", "Tailwind CSS", "Framer Motion"],
+    //     imageUrl: Winnov8,
+    // },
     {
         title: "Admin Dashboard",
         description:
@@ -72,7 +78,10 @@ export const skillsData = [
     "React JS",
     "Next.js",
     "Git",
+    "Bitbucket",
     "Tailwind CSS",
+    "Chakra UI",
+    "Shadcn UI",
     "Bootstrap",
     "Framer Motion"
 ] as const;
