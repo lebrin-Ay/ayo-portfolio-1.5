@@ -37,7 +37,7 @@ export const projectsData = [
     {
         title: "Winnov8",
         description: "Winnov8 drives innovation and transformation by bridging the gap between talent and opportunity.",
-        tags: ["React JS", "Tailwind CSS", "Framer Motion", "Shadcn UI"],
+        tags: ["React JS", "Tailwind CSS", "Shadcn UI", "Framer Motion"],
         imageUrl: Winnov8,
     },
     {
