@@ -3,7 +3,7 @@
 import React from 'react';
 import SectionHeading from './section-heading';
 import { projectsData } from '@/lib/data';
-import Project, { ChineseProject, CitroneProject, HooBank } from './project';
+import Project, { ChineseProject, CitroneProject, HooBank, Winnov8Project } from './project';
 import { useSectionInView } from '@/lib/hooks';
 
 export default function Projects() {
@@ -22,6 +22,8 @@ export default function Projects() {
                         <CitroneProject {...project} />
                       ) : project.title === "Hoo Bank" ? (
                         <HooBank {...project} />
+                      ) : project.title === "Winnov8" ? (
+                        <Winnov8Project {...project} />
                       ) : (
                         <Project {...project} />
                       )}

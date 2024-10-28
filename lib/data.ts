@@ -2,7 +2,7 @@ import adminDashboardImg from "@/public/admin-dashboard.png";
 import citroneDashboardImg from "@/public/dashboard.png";
 import chineseImg from "@/public/chinese.png";
 import HooBank from "@/public/hoo_bank.png";
-// import Winnov8 from "@/public/Winnov8.png";
+import Winnov8 from "@/public/winnov8.png";
 
 // nav links
 export const links = [
@@ -34,12 +34,12 @@ export const links = [
 
 // projects data
 export const projectsData = [
-    // {
-    //     title: "Winnov8",
-    //     description: "",
-    //     tags: ["React JS", "Tailwind CSS", "Framer Motion"],
-    //     imageUrl: Winnov8,
-    // },
+    {
+        title: "Winnov8",
+        description: "Winnov8 drives innovation and transformation by bridging the gap between talent and opportunity.",
+        tags: ["React JS", "Tailwind CSS", "Framer Motion", "Shadcn UI"],
+        imageUrl: Winnov8,
+    },
     {
         title: "Admin Dashboard",
         description:
