@@ -2,7 +2,7 @@ import adminDashboardImg from "@/public/admin-dashboard.png";
 import citroneDashboardImg from "@/public/dashboard.png";
 import chineseImg from "@/public/chinese.png";
 import HooBank from "@/public/hoo_bank.png";
-import Winnov8 from "@/public/winnov8.png";
+import Winnov8 from "@/public/new-winnov8.png";
 
 // nav links
 export const links = [
